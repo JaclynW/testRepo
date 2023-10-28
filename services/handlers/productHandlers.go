@@ -2,14 +2,14 @@ package handlers
 
 import (
 	"net/http"
-	"product-service/models"
+	"product-service/services/models"
 
 	"github.com/gin-gonic/gin"
 )
 
 var products = []models.Product{
-	{ID: 1, Name: "Laptop", Price: 1000.50},
-	{ID: 2, Name: "Mouse", Price: 25.75},
+	{ID: "1", Name: "Laptop", Price: 1000.50},
+	{ID: "2", Name: "Mouse", Price: 25.75},
 }
 
 func GetAllProducts(c *gin.Context) {
