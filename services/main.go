@@ -1,7 +1,7 @@
 package main
 
 import (
-	"product-service/handlers"
+	"product-service/services/handlers"
 
 	"github.com/gin-gonic/gin"
 )
